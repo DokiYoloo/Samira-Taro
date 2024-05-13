@@ -58,6 +58,8 @@
     "react-dom": "^18.0.0",
     "react": "^18.0.0",
 
+    "@tarojs/plugin-html": "3.6.29",
+    "@tarojs/plugin-http": "3.6.29",
     "@tanstack/react-query": "4",
     "axios": "^1.6.2",
     "jotai": "^2.6.0",

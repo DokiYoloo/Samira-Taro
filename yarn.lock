@@ -53,7 +53,7 @@
     eslint-visitor-keys "^2.1.0"
     semver "^6.3.1"
 
-"@babel/generator@^7.24.5", "@babel/generator@^7.7.2":
+"@babel/generator@^7.20.0", "@babel/generator@^7.24.5", "@babel/generator@^7.7.2":
   version "7.24.5"
   resolved "https://registry.yarnpkg.com/@babel/generator/-/generator-7.24.5.tgz#e5afc068f932f05616b66713e28d0f04e99daeb3"
   integrity sha512-x32i4hEXvr+iI0NEoEfDKzlemF8AmtOP8CcrRaEcpzysWuoEb1KknpcvMsHKPONoKZiDuItklgWhB18xEhr9PA==
@@ -262,7 +262,7 @@
     js-tokens "^4.0.0"
     picocolors "^1.0.0"
 
-"@babel/parser@^7.1.0", "@babel/parser@^7.14.5", "@babel/parser@^7.14.7", "@babel/parser@^7.20.7", "@babel/parser@^7.23.0", "@babel/parser@^7.23.9", "@babel/parser@^7.24.0", "@babel/parser@^7.24.4", "@babel/parser@^7.24.5":
+"@babel/parser@^7.1.0", "@babel/parser@^7.14.5", "@babel/parser@^7.14.7", "@babel/parser@^7.20.0", "@babel/parser@^7.20.7", "@babel/parser@^7.23.0", "@babel/parser@^7.23.9", "@babel/parser@^7.24.0", "@babel/parser@^7.24.4", "@babel/parser@^7.24.5":
   version "7.24.5"
   resolved "https://registry.yarnpkg.com/@babel/parser/-/parser-7.24.5.tgz#4a4d5ab4315579e5398a82dcf636ca80c3392790"
   integrity sha512-EOv5IK8arwh3LI47dz1b0tKUb/1uhHAnHJOrjgtQMIpu1uXd9mlFrJg9IUgGUgZ41Ch0K8REPTYpO7B76b4vJg==
@@ -1167,7 +1167,7 @@
     "@babel/parser" "^7.24.0"
     "@babel/types" "^7.24.0"
 
-"@babel/traverse@^7.14.5", "@babel/traverse@^7.23.2", "@babel/traverse@^7.24.5":
+"@babel/traverse@^7.14.5", "@babel/traverse@^7.20.0", "@babel/traverse@^7.23.2", "@babel/traverse@^7.24.5":
   version "7.24.5"
   resolved "https://registry.yarnpkg.com/@babel/traverse/-/traverse-7.24.5.tgz#972aa0bc45f16983bf64aa1f877b2dd0eea7e6f8"
   integrity sha512-7aaBLeDQ4zYcUFDUD41lJc1fG8+5IU9DaNSJAgal866FGvmD5EbWQgnEC6kO1gGLsX0esNkfnJSndbTXA3r7UA==
@@ -1183,7 +1183,7 @@
     debug "^4.3.1"
     globals "^11.1.0"
 
-"@babel/types@^7.0.0", "@babel/types@^7.20.7", "@babel/types@^7.22.15", "@babel/types@^7.22.5", "@babel/types@^7.23.0", "@babel/types@^7.23.4", "@babel/types@^7.24.0", "@babel/types@^7.24.5", "@babel/types@^7.3.3", "@babel/types@^7.4.4":
+"@babel/types@^7.0.0", "@babel/types@^7.20.0", "@babel/types@^7.20.7", "@babel/types@^7.22.15", "@babel/types@^7.22.5", "@babel/types@^7.23.0", "@babel/types@^7.23.4", "@babel/types@^7.24.0", "@babel/types@^7.24.5", "@babel/types@^7.3.3", "@babel/types@^7.4.4":
   version "7.24.5"
   resolved "https://registry.yarnpkg.com/@babel/types/-/types-7.24.5.tgz#7661930afc638a5383eb0c4aee59b74f38db84d7"
   integrity sha512-6mQNsaLeXTw0nxYUYu+NSa4Hx4BlF1x1x8/PMFbiR+GBSr+2DkECc69b8hgy2frEodNcvPffeH8YfWd3LI6jhQ==
@@ -2162,6 +2162,28 @@
     acorn "^8.0.4"
     acorn-walk "^8.0.0"
     lodash "^4.17.21"
+
+"@tarojs/plugin-html@3.6.29":
+  version "3.6.29"
+  resolved "https://registry.yarnpkg.com/@tarojs/plugin-html/-/plugin-html-3.6.29.tgz#fda0c29afa56102a8d2a30837da8e9c6daabeff7"
+  integrity sha512-T6iZCqGJY2iqTT+Apy43lUkUpfWqiTs8iSVttj1nE9eFPIhE3CfMUdP3UrBQym1/TrKzBX24AbagvYHcwlwZ0A==
+  dependencies:
+    "@babel/generator" "^7.20.0"
+    "@babel/parser" "^7.20.0"
+    "@babel/traverse" "^7.20.0"
+    "@babel/types" "^7.20.0"
+    "@tarojs/runtime" "3.6.29"
+    "@tarojs/service" "3.6.29"
+    "@tarojs/shared" "3.6.29"
+
+"@tarojs/plugin-http@3.6.29":
+  version "3.6.29"
+  resolved "https://registry.yarnpkg.com/@tarojs/plugin-http/-/plugin-http-3.6.29.tgz#80fb7087ab3ba1d6ee080db9d6641c3c45988f31"
+  integrity sha512-4mIFF/2KaQM3vbrOT9mA3XbFdKTKLx24GBpYjejopc0AjD/cxsX2K0mfYCtsodZRh7ZoDYCUxg5nQdTlzWBCHg==
+  dependencies:
+    "@tarojs/runtime" "3.6.29"
+    "@tarojs/service" "3.6.29"
+    "@tarojs/shared" "3.6.29"
 
 "@tarojs/plugin-platform-alipay@3.6.29":
   version "3.6.29"
