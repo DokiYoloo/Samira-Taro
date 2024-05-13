@@ -4,7 +4,7 @@ import devConfig from './dev'
 import prodConfig from './prod'
 
 // https://taro-docs.jd.com/docs/next/config#defineconfig-辅助函数
-export default defineConfig(async (merge, {command, mode}) => {
+export default defineConfig(async (merge, {}) => {
   const baseConfig: UserConfigExport = {
     projectName: 'samira-taro',
     date: '2024-5-13',
