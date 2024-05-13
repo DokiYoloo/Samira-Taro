@@ -1,0 +1,29 @@
+{
+  "miniprogramRoot": "./dist",
+  "projectname": "samira-taro",
+  "description": "samira taro project",
+  "appid": "touristappid",
+  "setting": {
+    "urlCheck": true,
+    "es6": false,
+    "enhance": false,
+    "compileHotReLoad": false,
+    "postcss": false,
+    "minified": false,
+    "coverView": false,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    },
+    "showShadowRootInWxmlPanel": false,
+    "packNpmRelationList": [],
+    "ignoreUploadUnusedFiles": true
+  },
+  "compileType": "miniprogram",
+  "libVersion": "3.2.4",
+  "packOptions": {
+    "ignore": [],
+    "include": []
+  }
+}
