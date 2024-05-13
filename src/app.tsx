@@ -1,6 +1,7 @@
 import { PropsWithChildren } from 'react'
 import { useLaunch } from '@tarojs/taro'
 import './app.less'
+import { QueryProvider } from "@/utils/QueryProvider";
 
 function App({ children }: PropsWithChildren<any>) {
 
@@ -9,7 +10,11 @@ function App({ children }: PropsWithChildren<any>) {
   })
 
   // children 是将要会渲染的页面
-  return children
+  return (
+    <QueryProvider>
+      {children}
+    </QueryProvider>
+  )
 }
 
 export default App
